@@ -378,7 +378,7 @@ CORRECTED_SQUARE_METERS: [Corrected value or UNKNOWN]
     return df
 
 # Local file path to the CSV file
-file_path = "/Users/workexp.user/Documents/property descriptions 10.csv"
+file_path = "(CSV File Path)"
 
 # Column name that contains the property descriptions
 description_column = "description"
