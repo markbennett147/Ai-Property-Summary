@@ -4,7 +4,7 @@ import os
 from tqdm import tqdm
 
 # Set the API key
-os.environ["ANTHROPIC_API_KEY"] = "(API key here)"
+os.environ["ANTHROPIC_API_KEY"] = "(API key)"
 
 # Initialize the Anthropic client
 client = anthropic.Anthropic()
@@ -149,7 +149,7 @@ If square footage/meters information isn't directly mentioned, but one can be ca
     return df
 
 # Local file path to the CSV file
-file_path = "/Users/workexp.user/Documents/property descriptions 10.csv"
+file_path = "(CSV file path)"
 
 # Column name that contains the property descriptions
 description_column = "description"
